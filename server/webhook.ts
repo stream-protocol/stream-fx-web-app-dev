@@ -121,8 +121,8 @@ export const sendNewTransaction = async (transaction: any, headers: any) => {
     WEBHOOKS.forEach((url) => {
       axios.post(url, {
         content: "",
-        username: "Wagmi Transactions",
-        avatar_url: "https://i.imgur.com/aCECDTI.jpg",
+        username: "StreamPayment Transactions",
+        avatar_url: "https://i.imgur.com/vWmZ8tg.png",
         embeds: [{
           url: `https://solscan.io/tx/${transaction.signature}`,
           title: "New Transaction",

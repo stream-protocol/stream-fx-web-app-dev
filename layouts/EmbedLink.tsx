@@ -23,8 +23,8 @@ export const EmbedLink = ({ links }: Props) => {
   const [expanded, setExpanded] = useState(false)
 
   const code = `<iframe
-  id="wagmi"
-  src="https://streampayment.app/embed/${selectedLink}"
+  id="streampayment"
+  src="https://streampayment.sol/embed/${selectedLink}"
   style="outline:none;border:none;
   border-radius:1rem;
   width:${width/16}rem;height:${height/16}rem"
@@ -34,14 +34,14 @@ export const EmbedLink = ({ links }: Props) => {
     <div className={styles.container}>
       <div className={styles.codeContainer}>
         <p className={dashStyles.dashboardHeading}>Embed your link</p>
-        <p className={dashStyles.dashboardSubHeading}>Use wagmi on other websites</p>
+        <p className={dashStyles.dashboardSubHeading}>Use StreamPayment on other websites</p>
         <div className={styles.customizeContainer}>
           <p>Link</p>
 
           <ClickAwayListener onClickAway={() => setExpanded(false)}>
             <div style={{ width: '100%' }}>
               <div onClick={() => setExpanded(!expanded)} className={styles.linkSelector} style={{ outline: expanded ? '0.1rem solid rgba(55, 123, 255, 0.41)' : '0.1rem solid #A4B3C0' }}>
-                <p>streampayment.app/{selectedLink}</p>
+                <p>streampaymenttt.sol/{selectedLink}</p>
                 <img style={{ transform: expanded ? 'rotate(180deg)' : 'rotate(0deg)', transition: '0.1s linear' }} src={expandIcon.src} />
               </div>
               <div className={styles.expandedContainer} style={{ display: expanded ? 'flex' : 'none' }}>
@@ -50,7 +50,7 @@ export const EmbedLink = ({ links }: Props) => {
                     setSelectedLink(links[index].link)
                     setExpanded(false)
                   }} style={{ background: link.link === selectedLink ? 'rgba(55, 123, 255, 0.13)' : '' }} key={index}>
-                    <p>streampayment.app/{link.link}</p>
+                    <p>streampayment.sol/{link.link}</p>
                   </div>
                 ))}
               </div>

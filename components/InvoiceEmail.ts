@@ -538,7 +538,7 @@ export const returnEmail = (invoice: any, owner: any) => (
                         </table>
                         <p>If you have any questions about this invoice, simply reply to this email or reach out to our <a href="https://discord.gg/H7SKRw8k">support team</a> for help.</p>
                         <p>Cheers,
-                          <br>The Wagmi Team</p>
+                          <br>The StreamPayment Team</p>
                         <!-- Sub copy -->
                         <table class="body-sub" role="presentation">
                           <tr>

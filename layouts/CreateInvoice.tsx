@@ -22,7 +22,7 @@ const tokens = {
   'Solana': "",
   'USD Coin': "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
   'USD Tether': "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
-  'Stream Token': "5P3giWpPBrVKL8QP8roKM7NsLdi3ie1Nc2b5r9mGtvwb"
+  'Stream Token': "5P3giWpPBrVKL8QP8roKM7NsLdi3ie1Nc2b5r9mGtvwb",
   'Bonk Coin': "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263"
 }
 

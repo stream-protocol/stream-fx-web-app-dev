@@ -56,5 +56,5 @@ export const generateInvoice = async (invoice: any, nd ? : boolean) => {
   })
   const pdf = await result;
   if (nd) return pdf;
-  easyinvoice.download(`WAGMI-${invoice.invoiceNumber}.pdf`, pdf.pdf)
+  easyinvoice.download(`STREAMPAYMENT-${invoice.invoiceNumber}.pdf`, pdf.pdf)
 }

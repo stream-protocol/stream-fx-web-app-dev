@@ -19,7 +19,7 @@ export const sendInvoiceMail = async (invoice: any) => {
     from: 'StreamPayment Invoicing <invoicing@streampayment.app>',
     subject: `Invoice #${invoice.invoiceNumber}`,
     html: returnEmail(invoice, owner)
-    // text: `Dear ${invoice.client.name},\n\nYou have an unpaid invoice from ${owner.name} for $${invoice.amount}. https://streampayment.app/invoice/${invoice.invoiceNumber}\n\nRegards,\nWagmi Team`,
+    // text: `Dear ${invoice.client.name},\n\nYou have an unpaid invoice from ${owner.name} for $${invoice.amount}. https://streampayment.app/invoice/${invoice.invoiceNumber}\n\nRegards,\StreamPaymentTeam`,
   }
   sendMail(invoiceEmail, async () => {
     console.log('Email sent to ', invoice.client.email)
