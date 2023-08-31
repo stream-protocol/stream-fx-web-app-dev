@@ -24,7 +24,7 @@ export const Pricing = ({ dummy, setParentPlan }: { dummy: boolean, setParentPla
       {plans.map((mapped, index) => (
         <div key={index}
           style={{
-            outline: plan === (index + 1) && !dummy ? '0.25rem solid #377BFF' : 'none',
+            outline: plan === (index + 1) && !dummy ? '0.25rem solid #00324d' : 'none',
             cursor: dummy ? 'default' : 'pointer',
           }}
           className={styles.paymentBox}

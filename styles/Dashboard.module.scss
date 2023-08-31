@@ -29,7 +29,7 @@
 .createButton {
     width: 100%;
     height: 2.8125rem;
-    background: #4B83EE;
+    background: #00111A;
     border: none;
     border-radius: 0.35rem;
     display: flex;
@@ -52,7 +52,7 @@
         justify-content: center;
         height: 100%;
         width: 20%;
-        background: #4C88FD;
+        background: #F5F5F5;
     }
 
     & .plusIcon {
@@ -71,7 +71,7 @@
     }
 
     &:hover {
-        background: #4C88FD;
+        background: #F5F5F5;
     }
 }
 
@@ -225,7 +225,7 @@
         background: rgba(55, 123, 255, 0.13);
         color: rgba(42, 49, 75, 0.76);
         & svg {
-            fill: #377BFF;
+            fill: #00324d;
         }
     }
     & svg {
@@ -244,7 +244,7 @@
         background: rgba(55, 123, 255, 0.13);
         color: rgba(42, 49, 75, 0.76);
         & svg {
-            fill: rgb(55, 123, 255, 1);
+            fill: rgb(1, 6, 17);
         }
     }
 }
@@ -329,7 +329,7 @@
     line-height: 1.45rem;
     margin: 0rem;
     letter-spacing: -0.21px;
-    color: rgba(42, 49, 75, 0.95);
+    color: rgba(42, 49, 75, 0.42);
 }
 
 .boxLightText {
