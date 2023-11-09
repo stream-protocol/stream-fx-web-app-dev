@@ -12,7 +12,7 @@
 		"lint:fix": "next lint --fix"
 	},
 	"dependencies": {
-		"@sentry/nextjs": "^7.66.0",
+		"@sentry/nextjs": "^7.77.0",
 		"@sentry/node": "^7.65.0",
 		"@sentry/react": "^7.65.0",
 		"@sentry/tracing": "^7.65.0",
