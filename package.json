@@ -48,7 +48,7 @@
 		"react-qr-code": "^2.0.12",
 		"react-to-pdf": "^0.0.14",
 		"sass": "^1.66.1",
-		"sharp": "^0.32.5",
+		"sharp": "^0.32.6",
 		"tweetnacl": "^1.0.3",
 		"validator": "^13.11.0"
 	},
